@@ -64,7 +64,7 @@ function btsy_test_init()
 {
 	?>
        <h1>Bitsy.in</h1><br/><p>
-This Bitsy.in WordPress plugin will help you use Bitsy.in to shorten links when you share Web pages or blogs from your WordPress site.Short links look elegant, are easier to use, and provide you an easy way to track the shortlink stats, including the number of clicks your link got!</p><br/>
+ Bitsy.in is URL Shortening site that allows your URL converted in to tiny URL. With Bitsy URL shortner, you can shorten URLs to make them easier to share on social media sites.</p><br/>
 	  <strong>Shortcode</strong> : [bitsy_share] <br/><strong>Php Shortcode</strong>: echo do_shortcode('[bitsy_share]');
 	   <?php
 }
