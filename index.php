@@ -49,7 +49,7 @@ function btsy_my_footer_enqueue()
 {
 	wp_enqueue_style('bitsyin', plugins_url('css/bitsy.css', __FILE__));
 	wp_enqueue_style('font-awesome', plugins_url('css/font-awesome.min.css', __FILE__));
-	wp_enqueue_script('bitsyin',plugins_url( 'js/bitsy.js', dirname(__FILE__) ), array(),  true );
+	wp_enqueue_script('bitsyin',plugins_url( 'js/bitsy.js',__FILE__));
 	
 	
 }
